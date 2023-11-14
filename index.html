@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./code.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="imgAnimacion">
+        <img src="./img/imagen1.png" id="nyanCatImg1" alt="">
+        <img src="./img/imagen1.png" id="nyanCatImg2" alt="">
+        <img src="./img/imagen1.png" id="nyanCatImg3" alt="">
+        <img src="./img/imagen1.png" id="nyanCatImg4" alt="">
+        <h1 class="h1Mostrar" id="animaciontexto1" >Contact US</h1>
+        <h1 class="h1Mostrar" id="animaciontexto2">Fill Out The Form To Get In Touch With Us</h1>
+    </div>
+    <div class="formularioNuevo">
+        <div class="cont">
+            <div class="form">
+                <div id="contForm1">
+                    <div class="contenerdorTexto">
+                        <img src="img/cat-nyan-cat.gif" alt="">
+                        <h4>info@company.com</h4>
+                        <h4>+001-002-0034</h4>
+                        <h4>26th Street, Digital Villa</h4>
+                    </div>
+                    <div class="contenedorFormulario">
+                        <div class="inputLabelForm">
+                            <label for="formName">Name: </label>
+                            <input type="text" id="formName" placeholder="Name">
+                        </div>
+                        <div class="inputLabelForm">
+                            <label for="formCognom">Surname: </label>
+                            <input type="text" id="formCognom" placeholder="Surname">
+                        </div>
+                        <div class="inputLabelForm">
+                            <label for="formEmail">Your Email: </label>
+                            <input type="text" id="formEmail" placeholder="eMail">
+                        </div>
+                        <div class="inputLabelForm">
+                            <label for="formSubject">Subject: </label>
+                            <input type="text" id="formSubject" placeholder="Subject">
+                        </div>
+                        <div class="inputLabelForm">
+                            <label for="formMessage">Message: </label>
+                            <textarea name="formMessage" id="formMessage" placeholder="Message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button onclick="enviarPost()">Enviar</button>
+                    </div>
+                </div>
+                <div id="contForm2">
+                    <img src="./img/correoCat-PhotoRoom.png" alt="">
+                    <h1>Mail Enviado</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
